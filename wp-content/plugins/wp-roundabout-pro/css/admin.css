@@ -1,0 +1,56 @@
+.sks-table tr td:first-child{
+min-width:100px;
+vertical-align:top;
+}
+
+.sks-table tr td{
+padding:5px;
+}
+
+.sks-table input[type="text"], .sks-table textarea, .sks-table select, .sks-table input[type="password"]{
+min-width:250px;
+}
+
+.sks .form-table td{
+vertical-align:top;
+border:1px solid gray;
+}
+
+.sks .form-table th{
+background:#eee;
+border:1px solid gray;
+text-align:center;
+font:bold 12px arial;
+}
+
+.sks .form-table tr td:last-child, .sks .form-table tr td:first-child, .sks .form-table tr th:first-child, .sks .form-table tr th:last-child{
+text-align:center;
+}
+
+.sks .form-table h5{
+margin:0;
+padding:0;
+font:bold italic 12px georgia;
+color:grey;
+text-align:right;
+}
+
+#color_picker_color1, #color_picker_color2, #color_picker_color3, #color_picker_color4, #color_picker_color5, #color_picker_color6{
+background: none repeat scroll 0 0 #FFFFFF;
+box-shadow:1px 1px 3px #000;
+padding: 20px;
+position: absolute;
+margin-left:3px;
+margin-top:0px;
+z-index:1;
+left: 400px;
+}
+
+.img-unselect{
+width:24px;
+height:24px;
+background:url('../images/delete.png') center center;
+cursor:pointer;
+margin:1px 5px;
+float: right;
+}
